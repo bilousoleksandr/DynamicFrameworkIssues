@@ -1,0 +1,1181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D269502C35EEF50047C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D8D269522C35EEF50047C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D8D269542C35EEF60047C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D8D269572C35EEF60047C58E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D8D269822C35EF1F0047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D269852C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */; };
+		D8D269862C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8D269922C35EFF60047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269912C35EFF60047C58E /* DesignKit */; };
+		D8D269932C35EFF60047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269912C35EFF60047C58E /* DesignKit */; };
+		D8D269982C35F13B0047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D2699B2C35F13B0047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269962C35F13B0047C58E /* DesignKit */; };
+		D8D2699E2C35F13B0047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269962C35F13B0047C58E /* DesignKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D8D269A72C35F14C0047C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D8D269A82C35F14C0047C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D8D269AC2C35F14C0047C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D8D269AD2C35F14C0047C58E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D8D269B42C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */; };
+		D8D269B52C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8D269BC2C35F1E50047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D269BF2C35F1E50047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269BA2C35F1E50047C58E /* DesignKit */; };
+		D8D269C22C35F1E50047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269BA2C35F1E50047C58E /* DesignKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D8D269CB2C35F1FB0047C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D8D269CC2C35F1FB0047C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D8D269D02C35F1FB0047C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D8D269D12C35F1FB0047C58E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D8D269D82C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; };
+		D8D269D92C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D269832C35EF1F0047C58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D2697E2C35EF1F0047C58E;
+			remoteInfo = BaseFramework;
+		};
+		D8D269B62C35F1860047C58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D269952C35F13B0047C58E;
+			remoteInfo = BaseFrameworkEmbedWithSigning;
+		};
+		D8D269DA2C35F21A0047C58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D269B92C35F1E50047C58E;
+			remoteInfo = BaseFrameworkEmbedWithSigningAndSignIdentity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8D2698A2C35EF1F0047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D269862C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269942C35EFF60047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D269932C35EFF60047C58E /* DesignKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2699D2C35F13B0047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D2699E2C35F13B0047C58E /* DesignKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269B82C35F1860047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D269B52C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269C12C35F1E50047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D269C22C35F1E50047C58E /* DesignKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269DC2C35F21A0047C58E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8D269D92C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8D2694C2C35EEF50047C58E /* AppWithFrameworkWithoutSigning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithFrameworkWithoutSigning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D2694F2C35EEF50047C58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8D269512C35EEF50047C58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8D269532C35EEF60047C58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D269562C35EEF60047C58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8D269582C35EEF60047C58E /* FrameworkSignatureApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FrameworkSignatureApp.entitlements; sourceTree = "<group>"; };
+		D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseFrameworkEmbedWithoutSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D269812C35EF1F0047C58E /* BaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFramework.h; sourceTree = "<group>"; };
+		D8D2698F2C35EFC80047C58E /* DesignKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DesignKit; path = Packages/DesignKit; sourceTree = "<group>"; };
+		D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseFrameworkEmbedWithSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D269B32C35F14C0047C58E /* AppWithFrameworkWithSigning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithFrameworkWithSigning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseFrameworkEmbedWithSigningAndSignIdentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D269D72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWitFrameworkWithSignIdentity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D269492C35EEF50047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269852C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2697C2C35EF1F0047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269922C35EFF60047C58E /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2699A2C35F13B0047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D2699B2C35F13B0047C58E /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269A92C35F14C0047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269B42C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269BE2C35F1E50047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269BF2C35F1E50047C58E /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269CD2C35F1FB0047C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269D82C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D269432C35EEF50047C58E = {
+			isa = PBXGroup;
+			children = (
+				D8D2698E2C35EFBE0047C58E /* Packages */,
+				D8D2694E2C35EEF50047C58E /* FrameworkSignatureApp */,
+				D8D269802C35EF1F0047C58E /* BaseFramework */,
+				D8D2694D2C35EEF50047C58E /* Products */,
+				D8D269902C35EFF60047C58E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D2694D2C35EEF50047C58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2694C2C35EEF50047C58E /* AppWithFrameworkWithoutSigning.app */,
+				D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */,
+				D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */,
+				D8D269B32C35F14C0047C58E /* AppWithFrameworkWithSigning.app */,
+				D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */,
+				D8D269D72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D2694E2C35EEF50047C58E /* FrameworkSignatureApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2694F2C35EEF50047C58E /* AppDelegate.swift */,
+				D8D269512C35EEF50047C58E /* ViewController.swift */,
+				D8D269532C35EEF60047C58E /* Assets.xcassets */,
+				D8D269552C35EEF60047C58E /* Main.storyboard */,
+				D8D269582C35EEF60047C58E /* FrameworkSignatureApp.entitlements */,
+			);
+			path = FrameworkSignatureApp;
+			sourceTree = "<group>";
+		};
+		D8D269802C35EF1F0047C58E /* BaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D8D269812C35EF1F0047C58E /* BaseFramework.h */,
+			);
+			path = BaseFramework;
+			sourceTree = "<group>";
+		};
+		D8D2698E2C35EFBE0047C58E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2698F2C35EFC80047C58E /* DesignKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D8D269902C35EFF60047C58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D8D2697A2C35EF1F0047C58E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269822C35EF1F0047C58E /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269972C35F13B0047C58E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269982C35F13B0047C58E /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269BB2C35F1E50047C58E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269BC2C35F1E50047C58E /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D8D2694B2C35EEF50047C58E /* AppWithFrameworkWithoutSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D269712C35EEF60047C58E /* Build configuration list for PBXNativeTarget "AppWithFrameworkWithoutSigning" */;
+			buildPhases = (
+				D8D269482C35EEF50047C58E /* Sources */,
+				D8D269492C35EEF50047C58E /* Frameworks */,
+				D8D2694A2C35EEF50047C58E /* Resources */,
+				D8D2698A2C35EF1F0047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D269842C35EF1F0047C58E /* PBXTargetDependency */,
+			);
+			name = AppWithFrameworkWithoutSigning;
+			productName = FrameworkSignatureApp;
+			productReference = D8D2694C2C35EEF50047C58E /* AppWithFrameworkWithoutSigning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D2697E2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D269872C35EF1F0047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithoutSigning" */;
+			buildPhases = (
+				D8D2697A2C35EF1F0047C58E /* Headers */,
+				D8D2697B2C35EF1F0047C58E /* Sources */,
+				D8D2697C2C35EF1F0047C58E /* Frameworks */,
+				D8D2697D2C35EF1F0047C58E /* Resources */,
+				D8D269942C35EFF60047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseFrameworkEmbedWithoutSigning;
+			packageProductDependencies = (
+				D8D269912C35EFF60047C58E /* DesignKit */,
+			);
+			productName = BaseFramework;
+			productReference = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8D269952C35F13B0047C58E /* BaseFrameworkEmbedWithSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D2699F2C35F13B0047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithSigning" */;
+			buildPhases = (
+				D8D269972C35F13B0047C58E /* Headers */,
+				D8D269992C35F13B0047C58E /* Sources */,
+				D8D2699A2C35F13B0047C58E /* Frameworks */,
+				D8D2699C2C35F13B0047C58E /* Resources */,
+				D8D2699D2C35F13B0047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseFrameworkEmbedWithSigning;
+			packageProductDependencies = (
+				D8D269962C35F13B0047C58E /* DesignKit */,
+			);
+			productName = BaseFramework;
+			productReference = D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8D269A32C35F14C0047C58E /* AppWithFrameworkWithSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D269B02C35F14C0047C58E /* Build configuration list for PBXNativeTarget "AppWithFrameworkWithSigning" */;
+			buildPhases = (
+				D8D269A62C35F14C0047C58E /* Sources */,
+				D8D269A92C35F14C0047C58E /* Frameworks */,
+				D8D269AB2C35F14C0047C58E /* Resources */,
+				D8D269B82C35F1860047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D269B72C35F1860047C58E /* PBXTargetDependency */,
+			);
+			name = AppWithFrameworkWithSigning;
+			productName = FrameworkSignatureApp;
+			productReference = D8D269B32C35F14C0047C58E /* AppWithFrameworkWithSigning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D269C32C35F1E50047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithSigningAndSignIdentity" */;
+			buildPhases = (
+				D8D269BB2C35F1E50047C58E /* Headers */,
+				D8D269BD2C35F1E50047C58E /* Sources */,
+				D8D269BE2C35F1E50047C58E /* Frameworks */,
+				D8D269C02C35F1E50047C58E /* Resources */,
+				D8D269C12C35F1E50047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseFrameworkEmbedWithSigningAndSignIdentity;
+			packageProductDependencies = (
+				D8D269BA2C35F1E50047C58E /* DesignKit */,
+			);
+			productName = BaseFramework;
+			productReference = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8D269C72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D269D42C35F1FB0047C58E /* Build configuration list for PBXNativeTarget "AppWitFrameworkWithSignIdentity" */;
+			buildPhases = (
+				D8D269CA2C35F1FB0047C58E /* Sources */,
+				D8D269CD2C35F1FB0047C58E /* Frameworks */,
+				D8D269CF2C35F1FB0047C58E /* Resources */,
+				D8D269DC2C35F21A0047C58E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D269DB2C35F21A0047C58E /* PBXTargetDependency */,
+			);
+			name = AppWitFrameworkWithSignIdentity;
+			productName = FrameworkSignatureApp;
+			productReference = D8D269D72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D269442C35EEF50047C58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D8D2694B2C35EEF50047C58E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D8D2697E2C35EF1F0047C58E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D8D269472C35EEF50047C58E /* Build configuration list for PBXProject "FrameworkSignatureApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D269432C35EEF50047C58E;
+			productRefGroup = D8D2694D2C35EEF50047C58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D2694B2C35EEF50047C58E /* AppWithFrameworkWithoutSigning */,
+				D8D2697E2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning */,
+				D8D269952C35F13B0047C58E /* BaseFrameworkEmbedWithSigning */,
+				D8D269A32C35F14C0047C58E /* AppWithFrameworkWithSigning */,
+				D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */,
+				D8D269C72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D2694A2C35EEF50047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269542C35EEF60047C58E /* Assets.xcassets in Resources */,
+				D8D269572C35EEF60047C58E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2697D2C35EF1F0047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2699C2C35F13B0047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269AB2C35F14C0047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269AC2C35F14C0047C58E /* Assets.xcassets in Resources */,
+				D8D269AD2C35F14C0047C58E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269C02C35F1E50047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269CF2C35F1FB0047C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269D02C35F1FB0047C58E /* Assets.xcassets in Resources */,
+				D8D269D12C35F1FB0047C58E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D269482C35EEF50047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269522C35EEF50047C58E /* ViewController.swift in Sources */,
+				D8D269502C35EEF50047C58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2697B2C35EF1F0047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269992C35F13B0047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269A62C35F14C0047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269A72C35F14C0047C58E /* ViewController.swift in Sources */,
+				D8D269A82C35F14C0047C58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269BD2C35F1E50047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D269CA2C35F1FB0047C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D269CB2C35F1FB0047C58E /* ViewController.swift in Sources */,
+				D8D269CC2C35F1FB0047C58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D269842C35EF1F0047C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D2697E2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning */;
+			targetProxy = D8D269832C35EF1F0047C58E /* PBXContainerItemProxy */;
+		};
+		D8D269B72C35F1860047C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D269952C35F13B0047C58E /* BaseFrameworkEmbedWithSigning */;
+			targetProxy = D8D269B62C35F1860047C58E /* PBXContainerItemProxy */;
+		};
+		D8D269DB2C35F21A0047C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */;
+			targetProxy = D8D269DA2C35F21A0047C58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D269552C35EEF60047C58E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D269562C35EEF60047C58E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D2696F2C35EEF60047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8D269702C35EEF60047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D8D269722C35EEF60047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8D269732C35EEF60047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D8D269882C35EF1F0047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8D269892C35EF1F0047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8D269A02C35F13B0047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8D269A12C35F13B0047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8D269B12C35F14C0047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8D269B22C35F14C0047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D8D269C42C35F1E50047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8D269C52C35F1E50047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8D269D52C35F1FB0047C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8D269D62C35F1FB0047C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D269472C35EEF50047C58E /* Build configuration list for PBXProject "FrameworkSignatureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D2696F2C35EEF60047C58E /* Debug */,
+				D8D269702C35EEF60047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D269712C35EEF60047C58E /* Build configuration list for PBXNativeTarget "AppWithFrameworkWithoutSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269722C35EEF60047C58E /* Debug */,
+				D8D269732C35EEF60047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D269872C35EF1F0047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithoutSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269882C35EF1F0047C58E /* Debug */,
+				D8D269892C35EF1F0047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D2699F2C35F13B0047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269A02C35F13B0047C58E /* Debug */,
+				D8D269A12C35F13B0047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D269B02C35F14C0047C58E /* Build configuration list for PBXNativeTarget "AppWithFrameworkWithSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269B12C35F14C0047C58E /* Debug */,
+				D8D269B22C35F14C0047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D269C32C35F1E50047C58E /* Build configuration list for PBXNativeTarget "BaseFrameworkEmbedWithSigningAndSignIdentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269C42C35F1E50047C58E /* Debug */,
+				D8D269C52C35F1E50047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D269D42C35F1FB0047C58E /* Build configuration list for PBXNativeTarget "AppWitFrameworkWithSignIdentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D269D52C35F1FB0047C58E /* Debug */,
+				D8D269D62C35F1FB0047C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8D269912C35EFF60047C58E /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+		D8D269962C35F13B0047C58E /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+		D8D269BA2C35F1E50047C58E /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D8D269442C35EEF50047C58E /* Project object */;
+}
