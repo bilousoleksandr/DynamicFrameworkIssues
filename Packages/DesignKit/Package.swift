@@ -7,18 +7,41 @@ let package = Package(
     name: "DesignKit",
     platforms: [.macOS(.v11)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
+        .library(
+            name: "DesignKit-dynamic",
+            type: .dynamic,
+            targets: ["DesignKit-dynamic"]
+        ),
         .library(
             name: "DesignKit",
-            type: .dynamic,
+            type: .static,
             targets: ["DesignKit"]
         ),
+        .library(
+            name: "DesignKitWrapper",
+            type: .static,
+            targets: ["DesignKitWrapper"]
+        )
     ],
     targets: [
         .target(
-            name: "DesignKit"),
-        .testTarget(
-            name: "DesignKitTests",
-            dependencies: ["DesignKit"]),
+            name: "DesignKit-dynamic",
+            resources: [
+                .copy("Resources")
+            ]
+        ),
+        .target(
+            name: "DesignKitWrapper",
+            dependencies: ["DesignKit-dynamic"],
+            resources: [
+                .copy("Resources")
+            ]
+        ),
+        .target(
+            name: "DesignKit",
+            resources: [
+                .copy("Resources")
+            ]
+        )
     ]
 )

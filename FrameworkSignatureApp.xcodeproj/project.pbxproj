@@ -3,10 +3,76 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84DDD322C4D62DB004980B7 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD312C4D62DB004980B7 /* DesignKit-dynamic */; };
+		D84DDD342C4D62FB004980B7 /* FrameworkWithDesignKit-dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24832C4D601900653C22 /* FrameworkWithDesignKit-dynamic.framework */; };
+		D84DDD352C4D62FB004980B7 /* FrameworkWithDesignKit-dynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24832C4D601900653C22 /* FrameworkWithDesignKit-dynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D84DDD382C4D62FB004980B7 /* FrameworkWithDesignKit2-dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24942C4D602800653C22 /* FrameworkWithDesignKit2-dynamic.framework */; };
+		D84DDD392C4D62FB004980B7 /* FrameworkWithDesignKit2-dynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24942C4D602800653C22 /* FrameworkWithDesignKit2-dynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D84DDD3D2C4D638E004980B7 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD3C2C4D638E004980B7 /* DesignKit-dynamic */; };
+		D84DDD422C4D650B004980B7 /* WidgetDesignKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F244E2C4D5D9D00653C22 /* WidgetDesignKit.swift */; };
+		D84DDD432C4D650B004980B7 /* WidgetDesignKitBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F244C2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift */; };
+		D84DDD442C4D650B004980B7 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F24502C4D5D9D00653C22 /* AppIntent.swift */; };
+		D84DDD462C4D650B004980B7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24492C4D5D9D00653C22 /* SwiftUI.framework */; };
+		D84DDD472C4D650B004980B7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24472C4D5D9D00653C22 /* WidgetKit.framework */; };
+		D84DDD4A2C4D650B004980B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85F24522C4D5D9E00653C22 /* Assets.xcassets */; };
+		D84DDD512C4D6518004980B7 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD502C4D6518004980B7 /* DesignKit-dynamic */; };
+		D84DDD522C4D6518004980B7 /* DesignKit-dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD502C4D6518004980B7 /* DesignKit-dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D84DDD542C4D651F004980B7 /* WidgetDesignKitExtension-dynamic.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D84DDD4E2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D84DDD5E2C4D73B6004980B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D84DDD5F2C4D73B6004980B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D84DDD632C4D73B6004980B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D84DDD642C4D73B6004980B7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D84DDD6E2C4D73CA004980B7 /* DesignKitOwner in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD6D2C4D73CA004980B7 /* DesignKitOwner */; };
+		D84DDD6F2C4D7503004980B7 /* WidgetDesignKitExtension-dynamic.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D84DDD4E2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D84DDD742C4D756D004980B7 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD732C4D756D004980B7 /* DesignKit-dynamic */; };
+		D84DDD782C4D7928004980B7 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD772C4D7928004980B7 /* DesignKit-dynamic */; };
+		D84DDD7A2C4D7FF0004980B7 /* DesignKit-dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD772C4D7928004980B7 /* DesignKit-dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D84DDD7F2C4D81F8004980B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D84DDD802C4D81F8004980B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D84DDD842C4D81F8004980B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D84DDD852C4D81F8004980B7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D84DDD8D2C4D820A004980B7 /* DesignKitWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = D84DDD8C2C4D820A004980B7 /* DesignKitWrapper */; };
+		D85F23F62C4D56B400653C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D85F23F72C4D56B400653C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D85F23FD2C4D56B400653C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D85F23FE2C4D56B400653C22 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D85F240A2C4D596900653C22 /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85F24162C4D597E00653C22 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D85F24152C4D597E00653C22 /* DesignKit */; };
+		D85F24172C4D598400653C22 /* FrameworkWithDesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */; };
+		D85F24182C4D598400653C22 /* FrameworkWithDesignKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D85F241F2C4D5AB800653C22 /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85F24222C4D5AB800653C22 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D85F241D2C4D5AB800653C22 /* DesignKit */; };
+		D85F24312C4D5B4F00653C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D85F24322C4D5B4F00653C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D85F24342C4D5B4F00653C22 /* FrameworkWithDesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */; };
+		D85F24362C4D5B4F00653C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D85F24372C4D5B4F00653C22 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D85F24392C4D5B4F00653C22 /* FrameworkWithDesignKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D85F243E2C4D5B7F00653C22 /* FrameworkWithDesignKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24282C4D5AB800653C22 /* FrameworkWithDesignKit2.framework */; };
+		D85F243F2C4D5B7F00653C22 /* FrameworkWithDesignKit2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24282C4D5AB800653C22 /* FrameworkWithDesignKit2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D85F24482C4D5D9D00653C22 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24472C4D5D9D00653C22 /* WidgetKit.framework */; };
+		D85F244A2C4D5D9D00653C22 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F24492C4D5D9D00653C22 /* SwiftUI.framework */; };
+		D85F244D2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F244C2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift */; };
+		D85F244F2C4D5D9D00653C22 /* WidgetDesignKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F244E2C4D5D9D00653C22 /* WidgetDesignKit.swift */; };
+		D85F24512C4D5D9D00653C22 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F24502C4D5D9D00653C22 /* AppIntent.swift */; };
+		D85F24532C4D5D9E00653C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85F24522C4D5D9E00653C22 /* Assets.xcassets */; };
+		D85F24582C4D5D9E00653C22 /* WidgetDesignKitExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D85F24462C4D5D9D00653C22 /* WidgetDesignKitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D85F245E2C4D5DA900653C22 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D85F245D2C4D5DA900653C22 /* DesignKit */; };
+		D85F24652C4D5FED00653C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
+		D85F24662C4D5FED00653C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
+		D85F246A2C4D5FED00653C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
+		D85F246B2C4D5FED00653C22 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
+		D85F247A2C4D601900653C22 /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85F24852C4D602500653C22 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D85F24842C4D602500653C22 /* DesignKit-dynamic */; };
+		D85F248A2C4D602800653C22 /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D874BF432C48515F00B36478 /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; };
+		D874BF442C48515F00B36478 /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D874BF482C48517600B36478 /* DesignKit-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D874BF472C48517600B36478 /* DesignKit-dynamic */; };
+		D874BF492C48517600B36478 /* DesignKit-dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D874BF472C48517600B36478 /* DesignKit-dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D8D269502C35EEF50047C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
 		D8D269522C35EEF50047C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
 		D8D269542C35EEF60047C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
@@ -14,8 +80,6 @@
 		D8D269822C35EF1F0047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D269852C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */; };
 		D8D269862C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D8D269922C35EFF60047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269912C35EFF60047C58E /* DesignKit */; };
-		D8D269932C35EFF60047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269912C35EFF60047C58E /* DesignKit */; };
 		D8D269982C35F13B0047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D2699B2C35F13B0047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269962C35F13B0047C58E /* DesignKit */; };
 		D8D2699E2C35F13B0047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269962C35F13B0047C58E /* DesignKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -26,17 +90,76 @@
 		D8D269B42C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */; };
 		D8D269B52C35F1860047C58E /* BaseFrameworkEmbedWithSigning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269A22C35F13B0047C58E /* BaseFrameworkEmbedWithSigning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8D269BC2C35F1E50047C58E /* BaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D269812C35EF1F0047C58E /* BaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8D269BF2C35F1E50047C58E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D269BA2C35F1E50047C58E /* DesignKit */; };
-		D8D269C22C35F1E50047C58E /* DesignKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D8D269BA2C35F1E50047C58E /* DesignKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D8D269CB2C35F1FB0047C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D269512C35EEF50047C58E /* ViewController.swift */; };
 		D8D269CC2C35F1FB0047C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2694F2C35EEF50047C58E /* AppDelegate.swift */; };
 		D8D269D02C35F1FB0047C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D269532C35EEF60047C58E /* Assets.xcassets */; };
 		D8D269D12C35F1FB0047C58E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8D269562C35EEF60047C58E /* Base */; };
-		D8D269D82C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; };
-		D8D269D92C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D84DDD362C4D62FB004980B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F24772C4D601900653C22;
+			remoteInfo = "FrameworkWithDesignKit-dynamic";
+		};
+		D84DDD3A2C4D62FB004980B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F24872C4D602800653C22;
+			remoteInfo = "FrameworkWithDesignKit2-dynamic";
+		};
+		D84DDD552C4D651F004980B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84DDD3F2C4D650B004980B7;
+			remoteInfo = "WidgetDesignKitExtension-dynamic";
+		};
+		D84DDD702C4D7503004980B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84DDD3F2C4D650B004980B7;
+			remoteInfo = "WidgetDesignKitExtension-dynamic";
+		};
+		D85F24192C4D598400653C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F24072C4D596900653C22;
+			remoteInfo = FrameworkWithDesignKit;
+		};
+		D85F242F2C4D5B4F00653C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F24072C4D596900653C22;
+			remoteInfo = FrameworkWithDesignKit;
+		};
+		D85F24402C4D5B7F00653C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F241C2C4D5AB800653C22;
+			remoteInfo = FrameworkWithDesignKit2;
+		};
+		D85F24562C4D5D9E00653C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85F24452C4D5D9D00653C22;
+			remoteInfo = WidgetDesignKitExtension;
+		};
+		D874BF452C48515F00B36478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D269B92C35F1E50047C58E;
+			remoteInfo = BaseFrameworkEmbedWithSigningAndSignIdentity;
+		};
 		D8D269832C35EF1F0047C58E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
@@ -51,16 +174,149 @@
 			remoteGlobalIDString = D8D269952C35F13B0047C58E;
 			remoteInfo = BaseFrameworkEmbedWithSigning;
 		};
-		D8D269DA2C35F21A0047C58E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8D269442C35EEF50047C58E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8D269B92C35F1E50047C58E;
-			remoteInfo = BaseFrameworkEmbedWithSigningAndSignIdentity;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D84DDD532C4D6518004980B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D84DDD522C4D6518004980B7 /* DesignKit-dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD572C4D651F004980B7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D84DDD542C4D651F004980B7 /* WidgetDesignKitExtension-dynamic.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD722C4D7503004980B7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D84DDD6F2C4D7503004980B7 /* WidgetDesignKitExtension-dynamic.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD762C4D756D004980B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F240F2C4D596900653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F241B2C4D598400653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D85F24182C4D598400653C22 /* FrameworkWithDesignKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24242C4D5AB800653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24382C4D5B4F00653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D85F24392C4D5B4F00653C22 /* FrameworkWithDesignKit.framework in Embed Frameworks */,
+				D85F243F2C4D5B7F00653C22 /* FrameworkWithDesignKit2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F245C2C4D5D9E00653C22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D85F24582C4D5D9E00653C22 /* WidgetDesignKitExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F246C2C4D5FED00653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D84DDD352C4D62FB004980B7 /* FrameworkWithDesignKit-dynamic.framework in Embed Frameworks */,
+				D84DDD392C4D62FB004980B7 /* FrameworkWithDesignKit2-dynamic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F247F2C4D601900653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F248F2C4D602800653C22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CAE5F42C484FA500D0D157 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D874BF442C48515F00B36478 /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8D2698A2C35EF1F0047C58E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,7 +334,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D8D269932C35EFF60047C58E /* DesignKit in Embed Frameworks */,
+				D84DDD7A2C4D7FF0004980B7 /* DesignKit-dynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,18 +367,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D8D269C22C35F1E50047C58E /* DesignKit in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8D269DC2C35F21A0047C58E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D8D269D92C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Embed Frameworks */,
+				D874BF492C48517600B36478 /* DesignKit-dynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +375,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D84DDD4E2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WidgetDesignKitExtension-dynamic.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84DDD4F2C4D650B004980B7 /* WidgetDesignKitExtension copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WidgetDesignKitExtension copy-Info.plist"; path = "/Users/oleksandrbilous/Projects/FrameworkSignatureApp/WidgetDesignKitExtension copy-Info.plist"; sourceTree = "<absolute>"; };
+		D84DDD6C2C4D73B6004980B7 /* AppWithDesignKitOwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithDesignKitOwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84DDD8B2C4D81F8004980B7 /* AppWithWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24042C4D56B400653C22 /* AppWithDesignKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithDesignKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkWithDesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24282C4D5AB800653C22 /* FrameworkWithDesignKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkWithDesignKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F243D2C4D5B4F00653C22 /* AppWith2DesignKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWith2DesignKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24462C4D5D9D00653C22 /* WidgetDesignKitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetDesignKitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24472C4D5D9D00653C22 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D85F24492C4D5D9D00653C22 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D85F244C2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDesignKitBundle.swift; sourceTree = "<group>"; };
+		D85F244E2C4D5D9D00653C22 /* WidgetDesignKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDesignKit.swift; sourceTree = "<group>"; };
+		D85F24502C4D5D9D00653C22 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		D85F24522C4D5D9E00653C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85F24542C4D5D9E00653C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85F24552C4D5D9E00653C22 /* WidgetDesignKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetDesignKit.entitlements; sourceTree = "<group>"; };
+		D85F24732C4D5FED00653C22 /* AppWithDesignKit-dynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppWithDesignKit-dynamic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24832C4D601900653C22 /* FrameworkWithDesignKit-dynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FrameworkWithDesignKit-dynamic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F24942C4D602800653C22 /* FrameworkWithDesignKit2-dynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FrameworkWithDesignKit2-dynamic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CAE5F82C4850AD00D0D157 /* DesignKitOwner */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DesignKitOwner; path = Packages/DesignKitOwner; sourceTree = "<group>"; };
 		D8D2694C2C35EEF50047C58E /* AppWithFrameworkWithoutSigning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithFrameworkWithoutSigning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D2694F2C35EEF50047C58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D269512C35EEF50047C58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +412,102 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D84DDD452C4D650B004980B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD462C4D650B004980B7 /* SwiftUI.framework in Frameworks */,
+				D84DDD512C4D6518004980B7 /* DesignKit-dynamic in Frameworks */,
+				D84DDD472C4D650B004980B7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD602C4D73B6004980B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD6E2C4D73CA004980B7 /* DesignKitOwner in Frameworks */,
+				D84DDD742C4D756D004980B7 /* DesignKit-dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD812C4D81F8004980B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD8D2C4D820A004980B7 /* DesignKitWrapper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F23F82C4D56B400653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24172C4D598400653C22 /* FrameworkWithDesignKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F240C2C4D596900653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24162C4D597E00653C22 /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24212C4D5AB800653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24222C4D5AB800653C22 /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24332C4D5B4F00653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24342C4D5B4F00653C22 /* FrameworkWithDesignKit.framework in Frameworks */,
+				D85F243E2C4D5B7F00653C22 /* FrameworkWithDesignKit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24432C4D5D9D00653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F244A2C4D5D9D00653C22 /* SwiftUI.framework in Frameworks */,
+				D85F24482C4D5D9D00653C22 /* WidgetKit.framework in Frameworks */,
+				D85F245E2C4D5DA900653C22 /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24672C4D5FED00653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD342C4D62FB004980B7 /* FrameworkWithDesignKit-dynamic.framework in Frameworks */,
+				D84DDD322C4D62DB004980B7 /* DesignKit-dynamic in Frameworks */,
+				D84DDD382C4D62FB004980B7 /* FrameworkWithDesignKit2-dynamic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F247C2C4D601900653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24852C4D602500653C22 /* DesignKit-dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F248C2C4D602800653C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD3D2C4D638E004980B7 /* DesignKit-dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8D269492C35EEF50047C58E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,7 +520,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D269922C35EFF60047C58E /* DesignKit in Frameworks */,
+				D84DDD782C4D7928004980B7 /* DesignKit-dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +544,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D269BF2C35F1E50047C58E /* DesignKit in Frameworks */,
+				D874BF482C48517600B36478 /* DesignKit-dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,21 +552,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D269D82C35F21A0047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */,
+				D874BF432C48515F00B36478 /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D85F244B2C4D5D9D00653C22 /* WidgetDesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				D85F244C2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift */,
+				D85F244E2C4D5D9D00653C22 /* WidgetDesignKit.swift */,
+				D85F24502C4D5D9D00653C22 /* AppIntent.swift */,
+				D85F24522C4D5D9E00653C22 /* Assets.xcassets */,
+				D85F24542C4D5D9E00653C22 /* Info.plist */,
+				D85F24552C4D5D9E00653C22 /* WidgetDesignKit.entitlements */,
+			);
+			path = WidgetDesignKit;
+			sourceTree = "<group>";
+		};
 		D8D269432C35EEF50047C58E = {
 			isa = PBXGroup;
 			children = (
 				D8D2698E2C35EFBE0047C58E /* Packages */,
 				D8D2694E2C35EEF50047C58E /* FrameworkSignatureApp */,
 				D8D269802C35EF1F0047C58E /* BaseFramework */,
+				D85F244B2C4D5D9D00653C22 /* WidgetDesignKit */,
 				D8D2694D2C35EEF50047C58E /* Products */,
 				D8D269902C35EFF60047C58E /* Frameworks */,
+				D84DDD4F2C4D650B004980B7 /* WidgetDesignKitExtension copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +594,17 @@
 				D8D269B32C35F14C0047C58E /* AppWithFrameworkWithSigning.app */,
 				D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */,
 				D8D269D72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity.app */,
+				D85F24042C4D56B400653C22 /* AppWithDesignKit.app */,
+				D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */,
+				D85F24282C4D5AB800653C22 /* FrameworkWithDesignKit2.framework */,
+				D85F243D2C4D5B4F00653C22 /* AppWith2DesignKit.app */,
+				D85F24462C4D5D9D00653C22 /* WidgetDesignKitExtension.appex */,
+				D85F24732C4D5FED00653C22 /* AppWithDesignKit-dynamic.app */,
+				D85F24832C4D601900653C22 /* FrameworkWithDesignKit-dynamic.framework */,
+				D85F24942C4D602800653C22 /* FrameworkWithDesignKit2-dynamic.framework */,
+				D84DDD4E2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic.appex */,
+				D84DDD6C2C4D73B6004980B7 /* AppWithDesignKitOwner.app */,
+				D84DDD8B2C4D81F8004980B7 /* AppWithWrapper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +632,7 @@
 		D8D2698E2C35EFBE0047C58E /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				D8CAE5F82C4850AD00D0D157 /* DesignKitOwner */,
 				D8D2698F2C35EFC80047C58E /* DesignKit */,
 			);
 			name = Packages;
@@ -252,6 +641,8 @@
 		D8D269902C35EFF60047C58E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D85F24472C4D5D9D00653C22 /* WidgetKit.framework */,
+				D85F24492C4D5D9D00653C22 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,6 +650,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D85F24092C4D596900653C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F240A2C4D596900653C22 /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F241E2C4D5AB800653C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F241F2C4D5AB800653C22 /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24792C4D601900653C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F247A2C4D601900653C22 /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24892C4D602800653C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F248A2C4D602800653C22 /* BaseFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8D2697A2C35EF1F0047C58E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +709,249 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D84DDD3F2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84DDD4B2C4D650B004980B7 /* Build configuration list for PBXNativeTarget "WidgetDesignKitExtension-dynamic" */;
+			buildPhases = (
+				D84DDD412C4D650B004980B7 /* Sources */,
+				D84DDD452C4D650B004980B7 /* Frameworks */,
+				D84DDD492C4D650B004980B7 /* Resources */,
+				D84DDD532C4D6518004980B7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WidgetDesignKitExtension-dynamic";
+			packageProductDependencies = (
+				D84DDD502C4D6518004980B7 /* DesignKit-dynamic */,
+			);
+			productName = WidgetDesignKitExtension;
+			productReference = D84DDD4E2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D84DDD582C4D73B6004980B7 /* AppWithDesignKitOwner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84DDD692C4D73B6004980B7 /* Build configuration list for PBXNativeTarget "AppWithDesignKitOwner" */;
+			buildPhases = (
+				D84DDD5D2C4D73B6004980B7 /* Sources */,
+				D84DDD602C4D73B6004980B7 /* Frameworks */,
+				D84DDD622C4D73B6004980B7 /* Resources */,
+				D84DDD722C4D7503004980B7 /* Embed Foundation Extensions */,
+				D84DDD762C4D756D004980B7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84DDD712C4D7503004980B7 /* PBXTargetDependency */,
+			);
+			name = AppWithDesignKitOwner;
+			packageProductDependencies = (
+				D84DDD6D2C4D73CA004980B7 /* DesignKitOwner */,
+				D84DDD732C4D756D004980B7 /* DesignKit-dynamic */,
+			);
+			productName = FrameworkSignatureApp;
+			productReference = D84DDD6C2C4D73B6004980B7 /* AppWithDesignKitOwner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D84DDD7B2C4D81F8004980B7 /* AppWithWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84DDD882C4D81F8004980B7 /* Build configuration list for PBXNativeTarget "AppWithWrapper" */;
+			buildPhases = (
+				D84DDD7E2C4D81F8004980B7 /* Sources */,
+				D84DDD812C4D81F8004980B7 /* Frameworks */,
+				D84DDD832C4D81F8004980B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppWithWrapper;
+			packageProductDependencies = (
+				D84DDD8C2C4D820A004980B7 /* DesignKitWrapper */,
+			);
+			productName = FrameworkSignatureApp;
+			productReference = D84DDD8B2C4D81F8004980B7 /* AppWithWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85F23F02C4D56B400653C22 /* AppWithDesignKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24012C4D56B400653C22 /* Build configuration list for PBXNativeTarget "AppWithDesignKit" */;
+			buildPhases = (
+				D85F23F52C4D56B400653C22 /* Sources */,
+				D85F23F82C4D56B400653C22 /* Frameworks */,
+				D85F23FC2C4D56B400653C22 /* Resources */,
+				D85F241B2C4D598400653C22 /* Embed Frameworks */,
+				D85F245C2C4D5D9E00653C22 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85F241A2C4D598400653C22 /* PBXTargetDependency */,
+				D85F24572C4D5D9E00653C22 /* PBXTargetDependency */,
+			);
+			name = AppWithDesignKit;
+			packageProductDependencies = (
+			);
+			productName = FrameworkSignatureApp;
+			productReference = D85F24042C4D56B400653C22 /* AppWithDesignKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85F24072C4D596900653C22 /* FrameworkWithDesignKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24112C4D596900653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit" */;
+			buildPhases = (
+				D85F24092C4D596900653C22 /* Headers */,
+				D85F240B2C4D596900653C22 /* Sources */,
+				D85F240C2C4D596900653C22 /* Frameworks */,
+				D85F240E2C4D596900653C22 /* Resources */,
+				D85F240F2C4D596900653C22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameworkWithDesignKit;
+			packageProductDependencies = (
+				D85F24152C4D597E00653C22 /* DesignKit */,
+			);
+			productName = BaseFramework;
+			productReference = D85F24142C4D596900653C22 /* FrameworkWithDesignKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D85F241C2C4D5AB800653C22 /* FrameworkWithDesignKit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24252C4D5AB800653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit2" */;
+			buildPhases = (
+				D85F241E2C4D5AB800653C22 /* Headers */,
+				D85F24202C4D5AB800653C22 /* Sources */,
+				D85F24212C4D5AB800653C22 /* Frameworks */,
+				D85F24232C4D5AB800653C22 /* Resources */,
+				D85F24242C4D5AB800653C22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameworkWithDesignKit2;
+			packageProductDependencies = (
+				D85F241D2C4D5AB800653C22 /* DesignKit */,
+			);
+			productName = BaseFramework;
+			productReference = D85F24282C4D5AB800653C22 /* FrameworkWithDesignKit2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D85F242D2C4D5B4F00653C22 /* AppWith2DesignKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F243A2C4D5B4F00653C22 /* Build configuration list for PBXNativeTarget "AppWith2DesignKit" */;
+			buildPhases = (
+				D85F24302C4D5B4F00653C22 /* Sources */,
+				D85F24332C4D5B4F00653C22 /* Frameworks */,
+				D85F24352C4D5B4F00653C22 /* Resources */,
+				D85F24382C4D5B4F00653C22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85F242E2C4D5B4F00653C22 /* PBXTargetDependency */,
+				D85F24412C4D5B7F00653C22 /* PBXTargetDependency */,
+			);
+			name = AppWith2DesignKit;
+			packageProductDependencies = (
+			);
+			productName = FrameworkSignatureApp;
+			productReference = D85F243D2C4D5B4F00653C22 /* AppWith2DesignKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85F24452C4D5D9D00653C22 /* WidgetDesignKitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24592C4D5D9E00653C22 /* Build configuration list for PBXNativeTarget "WidgetDesignKitExtension" */;
+			buildPhases = (
+				D85F24422C4D5D9D00653C22 /* Sources */,
+				D85F24432C4D5D9D00653C22 /* Frameworks */,
+				D85F24442C4D5D9D00653C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetDesignKitExtension;
+			packageProductDependencies = (
+				D85F245D2C4D5DA900653C22 /* DesignKit */,
+			);
+			productName = WidgetDesignKitExtension;
+			productReference = D85F24462C4D5D9D00653C22 /* WidgetDesignKitExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D85F245F2C4D5FED00653C22 /* AppWithDesignKit-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24702C4D5FED00653C22 /* Build configuration list for PBXNativeTarget "AppWithDesignKit-dynamic" */;
+			buildPhases = (
+				D85F24642C4D5FED00653C22 /* Sources */,
+				D85F24672C4D5FED00653C22 /* Frameworks */,
+				D85F24692C4D5FED00653C22 /* Resources */,
+				D85F246C2C4D5FED00653C22 /* Embed Frameworks */,
+				D84DDD572C4D651F004980B7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84DDD372C4D62FB004980B7 /* PBXTargetDependency */,
+				D84DDD3B2C4D62FB004980B7 /* PBXTargetDependency */,
+				D84DDD562C4D651F004980B7 /* PBXTargetDependency */,
+			);
+			name = "AppWithDesignKit-dynamic";
+			packageProductDependencies = (
+				D84DDD312C4D62DB004980B7 /* DesignKit-dynamic */,
+			);
+			productName = FrameworkSignatureApp;
+			productReference = D85F24732C4D5FED00653C22 /* AppWithDesignKit-dynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85F24772C4D601900653C22 /* FrameworkWithDesignKit-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24802C4D601900653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit-dynamic" */;
+			buildPhases = (
+				D85F24792C4D601900653C22 /* Headers */,
+				D85F247B2C4D601900653C22 /* Sources */,
+				D85F247C2C4D601900653C22 /* Frameworks */,
+				D85F247E2C4D601900653C22 /* Resources */,
+				D85F247F2C4D601900653C22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FrameworkWithDesignKit-dynamic";
+			packageProductDependencies = (
+				D85F24842C4D602500653C22 /* DesignKit-dynamic */,
+			);
+			productName = BaseFramework;
+			productReference = D85F24832C4D601900653C22 /* FrameworkWithDesignKit-dynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D85F24872C4D602800653C22 /* FrameworkWithDesignKit2-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85F24912C4D602800653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit2-dynamic" */;
+			buildPhases = (
+				D85F24892C4D602800653C22 /* Headers */,
+				D85F248B2C4D602800653C22 /* Sources */,
+				D85F248C2C4D602800653C22 /* Frameworks */,
+				D85F248E2C4D602800653C22 /* Resources */,
+				D85F248F2C4D602800653C22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FrameworkWithDesignKit2-dynamic";
+			packageProductDependencies = (
+				D84DDD3C2C4D638E004980B7 /* DesignKit-dynamic */,
+			);
+			productName = BaseFramework;
+			productReference = D85F24942C4D602800653C22 /* FrameworkWithDesignKit2-dynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D8D2694B2C35EEF50047C58E /* AppWithFrameworkWithoutSigning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8D269712C35EEF60047C58E /* Build configuration list for PBXNativeTarget "AppWithFrameworkWithoutSigning" */;
@@ -321,7 +987,7 @@
 			);
 			name = BaseFrameworkEmbedWithoutSigning;
 			packageProductDependencies = (
-				D8D269912C35EFF60047C58E /* DesignKit */,
+				D84DDD772C4D7928004980B7 /* DesignKit-dynamic */,
 			);
 			productName = BaseFramework;
 			productReference = D8D2697F2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning.framework */;
@@ -384,7 +1050,7 @@
 			);
 			name = BaseFrameworkEmbedWithSigningAndSignIdentity;
 			packageProductDependencies = (
-				D8D269BA2C35F1E50047C58E /* DesignKit */,
+				D874BF472C48517600B36478 /* DesignKit-dynamic */,
 			);
 			productName = BaseFramework;
 			productReference = D8D269C62C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity.framework */;
@@ -397,14 +1063,16 @@
 				D8D269CA2C35F1FB0047C58E /* Sources */,
 				D8D269CD2C35F1FB0047C58E /* Frameworks */,
 				D8D269CF2C35F1FB0047C58E /* Resources */,
-				D8D269DC2C35F21A0047C58E /* Embed Frameworks */,
+				D8CAE5F42C484FA500D0D157 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8D269DB2C35F21A0047C58E /* PBXTargetDependency */,
+				D874BF462C48515F00B36478 /* PBXTargetDependency */,
 			);
 			name = AppWitFrameworkWithSignIdentity;
+			packageProductDependencies = (
+			);
 			productName = FrameworkSignatureApp;
 			productReference = D8D269D72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity.app */;
 			productType = "com.apple.product-type.application";
@@ -419,6 +1087,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					D85F24452C4D5D9D00653C22 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					D8D2694B2C35EEF50047C58E = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -436,6 +1107,9 @@
 				Base,
 			);
 			mainGroup = D8D269432C35EEF50047C58E;
+			packageReferences = (
+				D8CAE5E82C484E6A00D0D157 /* XCLocalSwiftPackageReference "Packages/DesignKit" */,
+			);
 			productRefGroup = D8D2694D2C35EEF50047C58E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -446,11 +1120,111 @@
 				D8D269A32C35F14C0047C58E /* AppWithFrameworkWithSigning */,
 				D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */,
 				D8D269C72C35F1FB0047C58E /* AppWitFrameworkWithSignIdentity */,
+				D85F23F02C4D56B400653C22 /* AppWithDesignKit */,
+				D85F24072C4D596900653C22 /* FrameworkWithDesignKit */,
+				D85F241C2C4D5AB800653C22 /* FrameworkWithDesignKit2 */,
+				D85F242D2C4D5B4F00653C22 /* AppWith2DesignKit */,
+				D85F24452C4D5D9D00653C22 /* WidgetDesignKitExtension */,
+				D85F245F2C4D5FED00653C22 /* AppWithDesignKit-dynamic */,
+				D85F24772C4D601900653C22 /* FrameworkWithDesignKit-dynamic */,
+				D85F24872C4D602800653C22 /* FrameworkWithDesignKit2-dynamic */,
+				D84DDD3F2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic */,
+				D84DDD582C4D73B6004980B7 /* AppWithDesignKitOwner */,
+				D84DDD7B2C4D81F8004980B7 /* AppWithWrapper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D84DDD492C4D650B004980B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD4A2C4D650B004980B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD622C4D73B6004980B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD632C4D73B6004980B7 /* Assets.xcassets in Resources */,
+				D84DDD642C4D73B6004980B7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD832C4D81F8004980B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD842C4D81F8004980B7 /* Assets.xcassets in Resources */,
+				D84DDD852C4D81F8004980B7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F23FC2C4D56B400653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F23FD2C4D56B400653C22 /* Assets.xcassets in Resources */,
+				D85F23FE2C4D56B400653C22 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F240E2C4D596900653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24232C4D5AB800653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24352C4D5B4F00653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24362C4D5B4F00653C22 /* Assets.xcassets in Resources */,
+				D85F24372C4D5B4F00653C22 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24442C4D5D9D00653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24532C4D5D9E00653C22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24692C4D5FED00653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F246A2C4D5FED00653C22 /* Assets.xcassets in Resources */,
+				D85F246B2C4D5FED00653C22 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F247E2C4D601900653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F248E2C4D602800653C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8D2694A2C35EEF50047C58E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,6 +1276,99 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D84DDD412C4D650B004980B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD422C4D650B004980B7 /* WidgetDesignKit.swift in Sources */,
+				D84DDD432C4D650B004980B7 /* WidgetDesignKitBundle.swift in Sources */,
+				D84DDD442C4D650B004980B7 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD5D2C4D73B6004980B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD5E2C4D73B6004980B7 /* ViewController.swift in Sources */,
+				D84DDD5F2C4D73B6004980B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DDD7E2C4D81F8004980B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84DDD7F2C4D81F8004980B7 /* ViewController.swift in Sources */,
+				D84DDD802C4D81F8004980B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F23F52C4D56B400653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F23F62C4D56B400653C22 /* ViewController.swift in Sources */,
+				D85F23F72C4D56B400653C22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F240B2C4D596900653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24202C4D5AB800653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24302C4D5B4F00653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24312C4D5B4F00653C22 /* ViewController.swift in Sources */,
+				D85F24322C4D5B4F00653C22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24422C4D5D9D00653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F244F2C4D5D9D00653C22 /* WidgetDesignKit.swift in Sources */,
+				D85F244D2C4D5D9D00653C22 /* WidgetDesignKitBundle.swift in Sources */,
+				D85F24512C4D5D9D00653C22 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F24642C4D5FED00653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85F24652C4D5FED00653C22 /* ViewController.swift in Sources */,
+				D85F24662C4D5FED00653C22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F247B2C4D601900653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F248B2C4D602800653C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8D269482C35EEF50047C58E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,6 +1420,51 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D84DDD372C4D62FB004980B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F24772C4D601900653C22 /* FrameworkWithDesignKit-dynamic */;
+			targetProxy = D84DDD362C4D62FB004980B7 /* PBXContainerItemProxy */;
+		};
+		D84DDD3B2C4D62FB004980B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F24872C4D602800653C22 /* FrameworkWithDesignKit2-dynamic */;
+			targetProxy = D84DDD3A2C4D62FB004980B7 /* PBXContainerItemProxy */;
+		};
+		D84DDD562C4D651F004980B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84DDD3F2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic */;
+			targetProxy = D84DDD552C4D651F004980B7 /* PBXContainerItemProxy */;
+		};
+		D84DDD712C4D7503004980B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84DDD3F2C4D650B004980B7 /* WidgetDesignKitExtension-dynamic */;
+			targetProxy = D84DDD702C4D7503004980B7 /* PBXContainerItemProxy */;
+		};
+		D85F241A2C4D598400653C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F24072C4D596900653C22 /* FrameworkWithDesignKit */;
+			targetProxy = D85F24192C4D598400653C22 /* PBXContainerItemProxy */;
+		};
+		D85F242E2C4D5B4F00653C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F24072C4D596900653C22 /* FrameworkWithDesignKit */;
+			targetProxy = D85F242F2C4D5B4F00653C22 /* PBXContainerItemProxy */;
+		};
+		D85F24412C4D5B7F00653C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F241C2C4D5AB800653C22 /* FrameworkWithDesignKit2 */;
+			targetProxy = D85F24402C4D5B7F00653C22 /* PBXContainerItemProxy */;
+		};
+		D85F24572C4D5D9E00653C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85F24452C4D5D9D00653C22 /* WidgetDesignKitExtension */;
+			targetProxy = D85F24562C4D5D9E00653C22 /* PBXContainerItemProxy */;
+		};
+		D874BF462C48515F00B36478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */;
+			targetProxy = D874BF452C48515F00B36478 /* PBXContainerItemProxy */;
+		};
 		D8D269842C35EF1F0047C58E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D8D2697E2C35EF1F0047C58E /* BaseFrameworkEmbedWithoutSigning */;
@@ -562,11 +1474,6 @@
 			isa = PBXTargetDependency;
 			target = D8D269952C35F13B0047C58E /* BaseFrameworkEmbedWithSigning */;
 			targetProxy = D8D269B62C35F1860047C58E /* PBXContainerItemProxy */;
-		};
-		D8D269DB2C35F21A0047C58E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8D269B92C35F1E50047C58E /* BaseFrameworkEmbedWithSigningAndSignIdentity */;
-			targetProxy = D8D269DA2C35F21A0047C58E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -582,6 +1489,740 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D84DDD4C2C4D650B004980B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetDesignKit/WidgetDesignKit.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WidgetDesignKitExtension copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesignKit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp.WidgetDesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D84DDD4D2C4D650B004980B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetDesignKit/WidgetDesignKit.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WidgetDesignKitExtension copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesignKit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp.WidgetDesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D84DDD6A2C4D73B6004980B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+					"@executable_path/../PlugIns/WidgetDesignKitExtension-dynamic.appex/Contents/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D84DDD6B2C4D73B6004980B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+					"@executable_path/../PlugIns/WidgetDesignKitExtension-dynamic.appex/Contents/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D84DDD892C4D81F8004980B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D84DDD8A2C4D81F8004980B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D85F24022C4D56B400653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D85F24032C4D56B400653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D85F24122C4D596900653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85F24132C4D596900653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D85F24262C4D5AB800653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85F24272C4D5AB800653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D85F243B2C4D5B4F00653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D85F243C2C4D5B4F00653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D85F245A2C4D5D9E00653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetDesignKit/WidgetDesignKit.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetDesignKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesignKit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp.WidgetDesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D85F245B2C4D5D9E00653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetDesignKit/WidgetDesignKit.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetDesignKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesignKit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp.WidgetDesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D85F24712C4D5FED00653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../PlugIns/WidgetDesignKitExtension-dynamic.appex/Contents/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D85F24722C4D5FED00653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrameworkSignatureApp/FrameworkSignatureApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/PackageFrameworks/**";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../PlugIns/WidgetDesignKitExtension-dynamic.appex/Contents/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D85F24812C4D601900653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85F24822C4D601900653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D85F24922C4D602800653C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85F24932C4D602800653C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4Y5NM4C9D2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.BaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D8D2696F2C35EEF60047C58E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1055,6 +2696,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
@@ -1084,6 +2726,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@executable_path/../Frameworks/BaseFrameworkEmbedWithSigningAndSignIdentity.framework/Versions/A/Frameworks/",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilous.FrameworkSignatureApp;
@@ -1097,6 +2740,105 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D84DDD4B2C4D650B004980B7 /* Build configuration list for PBXNativeTarget "WidgetDesignKitExtension-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84DDD4C2C4D650B004980B7 /* Debug */,
+				D84DDD4D2C4D650B004980B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84DDD692C4D73B6004980B7 /* Build configuration list for PBXNativeTarget "AppWithDesignKitOwner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84DDD6A2C4D73B6004980B7 /* Debug */,
+				D84DDD6B2C4D73B6004980B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84DDD882C4D81F8004980B7 /* Build configuration list for PBXNativeTarget "AppWithWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84DDD892C4D81F8004980B7 /* Debug */,
+				D84DDD8A2C4D81F8004980B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24012C4D56B400653C22 /* Build configuration list for PBXNativeTarget "AppWithDesignKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24022C4D56B400653C22 /* Debug */,
+				D85F24032C4D56B400653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24112C4D596900653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24122C4D596900653C22 /* Debug */,
+				D85F24132C4D596900653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24252C4D5AB800653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24262C4D5AB800653C22 /* Debug */,
+				D85F24272C4D5AB800653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F243A2C4D5B4F00653C22 /* Build configuration list for PBXNativeTarget "AppWith2DesignKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F243B2C4D5B4F00653C22 /* Debug */,
+				D85F243C2C4D5B4F00653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24592C4D5D9E00653C22 /* Build configuration list for PBXNativeTarget "WidgetDesignKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F245A2C4D5D9E00653C22 /* Debug */,
+				D85F245B2C4D5D9E00653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24702C4D5FED00653C22 /* Build configuration list for PBXNativeTarget "AppWithDesignKit-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24712C4D5FED00653C22 /* Debug */,
+				D85F24722C4D5FED00653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24802C4D601900653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24812C4D601900653C22 /* Debug */,
+				D85F24822C4D601900653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85F24912C4D602800653C22 /* Build configuration list for PBXNativeTarget "FrameworkWithDesignKit2-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85F24922C4D602800653C22 /* Debug */,
+				D85F24932C4D602800653C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D8D269472C35EEF50047C58E /* Build configuration list for PBXProject "FrameworkSignatureApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1162,16 +2904,64 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		D8CAE5E82C484E6A00D0D157 /* XCLocalSwiftPackageReference "Packages/DesignKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DesignKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		D8D269912C35EFF60047C58E /* DesignKit */ = {
+		D84DDD312C4D62DB004980B7 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8CAE5E82C484E6A00D0D157 /* XCLocalSwiftPackageReference "Packages/DesignKit" */;
+			productName = "DesignKit-dynamic";
+		};
+		D84DDD3C2C4D638E004980B7 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
+		};
+		D84DDD502C4D6518004980B7 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
+		};
+		D84DDD6D2C4D73CA004980B7 /* DesignKitOwner */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKitOwner;
+		};
+		D84DDD732C4D756D004980B7 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
+		};
+		D84DDD772C4D7928004980B7 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
+		};
+		D84DDD8C2C4D820A004980B7 /* DesignKitWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKitWrapper;
+		};
+		D85F24152C4D597E00653C22 /* DesignKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DesignKit;
+		};
+		D85F241D2C4D5AB800653C22 /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+		D85F245D2C4D5DA900653C22 /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+		D85F24842C4D602500653C22 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
+		};
+		D874BF472C48517600B36478 /* DesignKit-dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "DesignKit-dynamic";
 		};
 		D8D269962C35F13B0047C58E /* DesignKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DesignKit;
-		};
-		D8D269BA2C35F1E50047C58E /* DesignKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DesignKit;
 		};

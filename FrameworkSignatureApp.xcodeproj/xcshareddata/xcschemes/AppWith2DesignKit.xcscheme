@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8D269A32C35F14C0047C58E"
-               BuildableName = "AppWithFrameworkWithSigning.app"
-               BlueprintName = "AppWithFrameworkWithSigning"
+               BlueprintIdentifier = "D85F242D2C4D5B4F00653C22"
+               BuildableName = "AppWith2DesignKit.app"
+               BlueprintName = "AppWith2DesignKit"
                ReferencedContainer = "container:FrameworkSignatureApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8D269A32C35F14C0047C58E"
-            BuildableName = "AppWithFrameworkWithSigning.app"
-            BlueprintName = "AppWithFrameworkWithSigning"
+            BlueprintIdentifier = "D85F242D2C4D5B4F00653C22"
+            BuildableName = "AppWith2DesignKit.app"
+            BlueprintName = "AppWith2DesignKit"
             ReferencedContainer = "container:FrameworkSignatureApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8D269A32C35F14C0047C58E"
-            BuildableName = "AppWithFrameworkWithSigning.app"
-            BlueprintName = "AppWithFrameworkWithSigning"
+            BlueprintIdentifier = "D85F242D2C4D5B4F00653C22"
+            BuildableName = "AppWith2DesignKit.app"
+            BlueprintName = "AppWith2DesignKit"
             ReferencedContainer = "container:FrameworkSignatureApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
